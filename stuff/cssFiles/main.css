@@ -1,0 +1,255 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Navigation Bar */
+#nav-container {
+  background-color: #000; /* Black background for the navigation bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#nav-logo {
+  width: 150px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* White text color for navigation links */
+  padding: 15px 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+.hero-area-bg {
+  background: url('bgWidBayCO.png') no-repeat center center/cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#hero-register {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#hero-register:hover {
+  background-color: #0056b3;
+}
+
+.banner-info {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* About Section */
+#about .section-padding {
+  padding: 60px 0;
+}
+
+#about .img-thumb {
+  text-align: center;
+}
+
+#about .about-content {
+  padding: 20px;
+}
+
+#about .about-text h2 {
+  font-size: 28px;
+}
+
+#about .stylish-list {
+  list-style: none;
+  padding: 0;
+}
+
+#about .stylish-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#about .stylish-list li i {
+  margin-right: 10px;
+}
+
+#about .btn-common {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about .btn-common:hover {
+  background-color: #0056b3;
+}
+
+/* Information Bar */
+#information-bar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+#information-bar .information-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#information-bar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#information-bar ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#information-bar ul li i {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* Prizes Section */
+#prizes .section-padding {
+  padding: 60px 0;
+}
+
+#prizes .section-title {
+  font-size: 28px;
+  color: #333;
+}
+
+#prizes p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Schedule Section */
+#schedule .section-padding {
+  padding: 60px 0;
+}
+
+#schedule .section-title {
+  font-size: 28px;
+  color: #333;
+}
+
+#schedule p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Domains Section */
+#domains .section-padding {
+  padding: 60px 0;
+}
+
+#domains .section-title {
+  font-size: 28px;
+  color: #333;
+}
+
+#domains p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Sponsors Section */
+#sponsors .section-padding {
+  padding: 60px 0;
+}
+
+#sponsors .section-title {
+  font-size: 28px;
+  color: #333;
+}
+
+#sponsors p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* FAQ Section */
+#faq .section-padding {
+  padding: 60px 0;
+}
+
+#faq .section-title {
+  font-size: 28px;
+  color: #333;
+}
+
+#faq p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Footer */
+#footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#footer .footer-logo img {
+  width: 100px;
+}
+
+#footer .social-icon {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#footer .social-icon li {
+  margin: 0 10px;
+}
+
+#footer .social-icon li a {
+  color: #007bff;
+  font-size: 18px;
+}
+
+#footer .site-info {
+  color: #555;
+  margin-top: 10px;
+}
